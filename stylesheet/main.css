@@ -1,3 +1,20 @@
 body {
-	background-color: blue;
+	background-image: url('../images/brickwall.png');
+	background-repeat: repeat;
+	padding: 50px; 
+}
+
+.large {
+	font-size: 30px;
+}
+
+.Gleegoo {
+	font-family: 'Glegoo', serif;
+}
+
+.spinner {
+	position: fixed;
+	left: 45%;
+	top: 250px;
+	color: #ABABAB;
 }
