@@ -1,3 +1,7 @@
 (function(){
-	alert("testing!");
+	$("form").on({
+		submit:function(e){
+			e.preventDefault();
+		}
+	})
 })();
